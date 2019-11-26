@@ -1,5 +1,9 @@
 @charset "utf-8";
-/* CSS Document */
+body {
+	background-color: #BDF3FF;
+	
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -20,11 +24,44 @@ li a {
   text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
-li a:hover {
+
+li a:hover:not(.active) {
   background-color: #111;
 }
 
+ul{font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, 'sans-serif'}
 
 
+.active {
+  background-color: #FFA600;
+}
+
+
+.fa {
+  padding: 30px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
 
