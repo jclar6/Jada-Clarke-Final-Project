@@ -1,7 +1,6 @@
 @charset "utf-8";
 body {
 	background-color: #BDF3FF;
-	
 }
 
 ul {
@@ -9,7 +8,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #2197D0;
 }
 
 li {
@@ -71,5 +70,6 @@ ul{font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, 'sans
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 75%;
+  width: 50%;
+height: 75%;
 }
